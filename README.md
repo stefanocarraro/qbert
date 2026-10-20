@@ -45,6 +45,11 @@ tests/Qbert.Core.Tests  xUnit tests
 `Qbert.Core` renders each frame into a 256x240 RGBA framebuffer; each host only copies it to the screen,
 feeds the keys in and plays the requested sounds.
 
+## Download
+
+Ready-to-run executables for Windows and Linux are attached to the
+[latest release](https://github.com/stefanocarraro/qbert/releases/latest).
+
 ## Requirements
 
 - .NET 10 SDK
@@ -80,5 +85,9 @@ dotnet publish src/Qbert.Desktop -c Release -r linux-x64 --self-contained -p:Pub
 - [alainsmet/qbert](https://github.com/alainsmet/qbert), JavaScript and canvas clone
 - [leonicolas/ReQbert](https://github.com/leonicolas/ReQbert), HTML5 remake of the MSX version
 - [SteveDunn/PacManBlazor](https://github.com/SteveDunn/PacManBlazor), arcade game architecture in Blazor
+
+## License
+
+Code released under the [MIT License](LICENSE).
 
 Q*bert is a trademark of its respective owners. This project is not affiliated with or endorsed by them.
