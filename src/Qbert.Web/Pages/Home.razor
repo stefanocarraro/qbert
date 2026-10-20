@@ -1,0 +1,15 @@
+@page "/"
+
+<PageTitle>Q*bert</PageTitle>
+
+<canvas id="screen" width="256" height="240"></canvas>
+
+@code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await GameHost.StartAsync();
+        }
+    }
+}

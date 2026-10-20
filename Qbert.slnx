@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Qbert.Core/Qbert.Core.csproj" />
+    <Project Path="src/Qbert.Desktop/Qbert.Desktop.csproj" />
+    <Project Path="src/Qbert.Web/Qbert.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Qbert.Core.Tests/Qbert.Core.Tests.csproj" />
+  </Folder>
+</Solution>
